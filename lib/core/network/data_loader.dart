@@ -115,7 +115,7 @@ class DataLoader {
             .timeout(Duration(seconds: timeout!));
         log(name: 'POST_REQUEST_RESPONSE', response.body.toString());
 
-        if (response.statusCode == 200) {
+        if (response.statusCode >= 200 && response.statusCode < 300) {
           var json = jsonDecode(response.body);
           log(name: 'POST_REQUEST_JSON_RESPONSE', json.toString());
           return ApiResponse.fromJson({

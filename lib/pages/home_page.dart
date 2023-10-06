@@ -104,7 +104,7 @@ class _HomePageState extends State<HomePage> {
                 }
                 return PostCard(
                   username:
-                      '${post.model['first_name']} ${post.model['last_name']}',
+                      '${post.model['first_name'] ?? 'Unknown'} ${post.model['last_name'] ?? ''}',
                   timeAgo: post.createdAt,
                   postTextContent: post.content,
                   imageUrl:
