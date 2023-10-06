@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "281830995285",
+    "project_id": "posty-d6f09",
+    "storage_bucket": "posty-d6f09.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:281830995285:android:68efb380bf68472541ebdc",
+        "android_client_info": {
+          "package_name": "com.example.posty"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCjO8nytXQ2_XpVfm3-gq7qXQmw1WepMQM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
